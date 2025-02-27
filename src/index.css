@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: hsl(256, 26%, 20%);
+  --color-secondary: hsl(216, 30%, 68%);
+  --color-light: hsl(0, 0%, 98%);
+  --color-dark-gray: hsl(273, 4%, 51%);
+  --color-light-gray: hsl(0, 0%, 98%);
+  --font-title: "DM Serif Display";
+  --font-body: "Karla";
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
